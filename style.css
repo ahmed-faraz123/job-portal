@@ -121,7 +121,7 @@ body {
 
 .menu-bar {
     background-color: var(--whiteColor);
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 20px;
     display: none;
 }
