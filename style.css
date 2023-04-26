@@ -437,11 +437,17 @@ body {
         display: block;
         cursor: pointer;
     }
+    .filter {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .card-loc, .card-sub, .card-tag {
         display: none;
+    }
+    .filter {
+        flex-direction: column;
     }
 }
 
