@@ -444,7 +444,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .card-loc, .card-sub, .card-tag {
+    .card-sub, .card-tag {
         display: none;
     }
     
