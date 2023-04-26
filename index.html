@@ -15,21 +15,16 @@
 
 <div class="sidebar">
   <h1 class="logo">JOBS.</h1>
-  <div class="menus">
-    <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
-    <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
-    <a href="#"><ion-icon name="stats-chart-outline"></ion-icon>Performance</a>
-    <a href="#"><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a>
-    <a href="#"><ion-icon name="mail-unread-outline"></ion-icon>Message</a>
-    <a href="#"><ion-icon name="setting-outline"></ion-icon>Settings</a>
-  </div>
-
   <div class="profile">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fuser-avatar&psig=AOvVaw2ezVyvd1WFmlfVEaQ1FJ5a&ust=1682104197769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiZmM2Uuf4CFQAAAAAdAAAAABAI" class="profile-img">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-3091504.jpg" class="profile-img">
     <div class="profile-name">
       <h4>Albert Einstein</h4>
       <p>Data Science</p>
     </div>
+  </div>
+  <div class="menus">
+    <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
+    <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
   </div>
 </div>
 
@@ -42,25 +37,14 @@
     </div>
   </div>
   <div class="filter-wrapper">
-    <p>Recommendations</p>
     <div class="filter" id="buttons">
-      <button class="btn-filter button-value" onclick="filterProduct('Data Science')">Data Science</button>
-      <button class="btn-filter button-value" onclick="filterProduct('Data Engineer')">Data Engineer</button>
-      <button class="btn-filter button-value" onclick="filterProduct('Data Analyst')">Data Analyst</button>
-      <button class="btn-filter button-value" onclick="filterProduct('Data Visualization')">Data Visualization</button>
+      <div class="search">
+        <input type="search" id="search-input-2" placeholder="Your location">
+        <button class="btn-search" id="search-2"><ion-icon name="search-outline"></ion-icon></button>
+      </div>
+      <button class="btn-filter button-value" onclick="filterProduct('Full Time')">Full Time</button>
+      <button class="btn-filter button-value" onclick="filterProduct('Part Time')">Part Time</button>
       <button class="btn-filter button-value" onclick="filterProduct('all')">All</button>
-    </div>
-  </div>
-  <div class="sort">
-    <p>Sort</p>
-    <div class="sort-list">
-      <select>
-        <option value="0">All</option>
-        <option value="1">Newest Post</option>
-        <option value="0">Oldest Post</option>
-        <option value="0">Most Relevant</option>
-        <option value="0">Highest Paid</option>
-      </select>
     </div>
   </div>
 
@@ -71,36 +55,39 @@
       <div class="detail">
         <ion-icon class="close-detail" name="close-outline"></ion-icon>
         <div class="detail-header">
-          <img src="images/google.svg">
-          <h2>Google</h2>
-          <p>Data Science</p>
+          <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164231/672-768x591.png">
+          <h2>Blog</h2>
+          <p>Tips to get best Jobs</p>
         </div>
         <hr class="divider">
         <div class="detail-desc">
           <div class="about">
-            <h4>About Company</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae dignissimos distinctio dolores, doloribus eaque enim eos error et eveniet facilis fuga impedit in iusto laudantium libero non optio pariatur perspiciatis quia rerum soluta voluptate!</p>
+            <h4>Get your Dream Job!</h4>
+            <p id="desc">A great job boosts your morale, contains tasks you enjoy and provides advancement opportunities. If you're not experiencing this in your current role, it may be time to find a better job. Getting a new job involves evaluating your career goals, researching viable opportunities and applying for a role that meets your needs. </p>
             <a href="">Read More</a>
           </div>
           <hr class="divider">
           <div class="qualification">
-            <h4>Qualifications</h4>
+            <h4>Summary</h4>
             <ul>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora.</li>
+              <li>Learn about your interests.</li>
+              <li>Upgrade your resume</li>
+              <li>Work on your skill set.</li>
+              <li>Ask questions during your interview</li>
             </ul>
           </div>
         </div>
         <hr class="divider">
         <div class="detail-btn">
           <button class="btn-apply">Apply Now</button>
-          <button class="btn-save"></button>
+          <button class="btn-save">Save</button>
         </div>
       </div>
-
-      <script src="https://code.jquery.com/jquery-2..4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/country-state-city@2.1.9/dist/country-state-city.min.js"></script>
       <script src="app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
