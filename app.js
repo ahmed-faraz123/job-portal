@@ -27,7 +27,7 @@ let products = {
             companyName: "Google",
             jobTitle: "Data Science",
             location: "New Delhi",
-            image: "google.png",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
             timeago: "2 days ago",
             fptime: "Full Time",
             applicants: "500 Applicants",
