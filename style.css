@@ -437,6 +437,7 @@ body {
         display: block;
         cursor: pointer;
     }
+    
     .filter {
         flex-direction: column;
     }
@@ -446,6 +447,7 @@ body {
     .card-loc, .card-sub, .card-tag {
         display: none;
     }
+    
     .filter {
         flex-direction: column;
     }
