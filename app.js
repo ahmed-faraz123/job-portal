@@ -31,7 +31,7 @@ let products = {
             timeago: "2 days ago",
             fptime: "Full Time",
             applicants: "500 Applicants",
-            salary: "$500k/year",
+            salary: "$500k",
         },
         {
             companyName: "YouTube",
@@ -41,7 +41,7 @@ let products = {
             timeago: "4 days ago",
             fptime: "Part Time",
             applicants: "500 Applicants",
-            salary: "$350k/year",
+            salary: "$350k",
         },
         {
             companyName: "Twitter",
@@ -51,7 +51,7 @@ let products = {
             timeago: "3 days ago",
             fptime: "Part Time",
             applicants: "500 Applicants",
-            salary: "$400k/year",
+            salary: "$400k",
         },
         {
             companyName: "Facebook",
@@ -61,7 +61,7 @@ let products = {
             timeago: "9 days ago",
             fptime: "Full Time",
             applicants: "500 Applicants",
-            salary: "$150k/year",
+            salary: "$150k",
         },
         {
             companyName: "Amazon",
@@ -71,7 +71,7 @@ let products = {
             timeago: "7 days ago",
             fptime: "Full Time",
             applicants: "500 Applicants",
-            salary: "$50k/year",
+            salary: "$50k",
         },
         {
             companyName: "Netflix",
@@ -80,7 +80,7 @@ let products = {
             image: "https://www.underconsideration.com/brandnew/archives/netflix_app_icon.jpg",
             fptime: "Part Time",
             applicants: "500 Applicants",
-            salary: "$500k/year",
+            salary: "$500k",
         },
         {
             companyName: "Zepto",
@@ -90,7 +90,7 @@ let products = {
             timeago: "6 days ago",
             fptime: "Full Time",
             applicants: "500 Applicants",
-            salary: "$800k/year",
+            salary: "$800k",
         },
     ],
 };
